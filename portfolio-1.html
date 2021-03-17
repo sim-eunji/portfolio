@@ -1,14 +1,6 @@
 <div id="ajax-page" class="ajax-page-content">
   <div class="ajax-page-wrapper">
     <div class="ajax-page-nav">
-      <div class="nav-item ajax-page-prev-next">
-        <a class="ajax-page-load" href="portfolio-3.html"
-          ><i class="lnr lnr-chevron-left"></i
-        ></a>
-        <a class="ajax-page-load" href="portfolio-2.html"
-          ><i class="lnr lnr-chevron-right"></i
-        ></a>
-      </div>
       <div class="nav-item ajax-page-close-button">
         <a id="ajax-page-close-button" href="#"
           ><i class="lnr lnr-cross"></i
@@ -36,8 +28,8 @@
 
         <script type="text/javascript">
           jQuery(document).ready(function ($) {
-            $(".portfolio-page-carousel").imagesLoaded(function () {
-              $(".portfolio-page-carousel").owlCarousel({
+            $('.portfolio-page-carousel').imagesLoaded(function () {
+              $('.portfolio-page-carousel').owlCarousel({
                 smartSpeed: 1200,
                 items: 1,
                 loop: true,
@@ -46,9 +38,9 @@
                 navText: false,
                 margin: 10,
                 autoHeight: true,
-              });
-            });
-          });
+              })
+            })
+          })
         </script>
       </div>
 
